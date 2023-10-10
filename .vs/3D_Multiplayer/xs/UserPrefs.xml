@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{F1EAE932-E2F0-C7D8-065B-B270F1BAAC22}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c6ed1bbe-57d2-4c95-a057-3912f70f806b" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ConnectPhoton.cs">
+    <Files>
+      <File FileName="Assets/Script/ConnectPhoton.cs" Line="19" Column="6" />
+      <File FileName="Assets/Script/InstantePrefabPlayer.cs" Line="4" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
