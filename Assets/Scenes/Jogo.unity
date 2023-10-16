@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab01: {fileID: 1386359579938309413, guid: 7bb5a0fab73034d2599882d37cb52935, type: 3}
-  playerPrefab02: {fileID: 7131033026391132420, guid: 3d9bc5c2078324eb1bc75ede7131ac70, type: 3}
+  playerPrefab02: {fileID: 6796828969424298378, guid: 731f12a187917f442b37e0debb26b888, type: 3}
 --- !u!4 &1014018970
 Transform:
   m_ObjectHideFlags: 0

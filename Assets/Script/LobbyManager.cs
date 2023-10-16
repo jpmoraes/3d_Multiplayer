@@ -44,10 +44,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public void JoinRoom()
     {
-     
-        PhotonNetwork.JoinRoom(roomName.text);
-        Debug.Log(roomName.text);
+        if (PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.JoinRoom(roomName.text);
 
+        }
     }
 
     public override void OnJoinedRoom()
@@ -77,6 +78,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
         {
             playerTexts[i].text = PhotonNetwork.PlayerList[i].NickName;
+            PhotonNetwork.LocalPlayer.CustomProperties["PlayersN"] = i;
         }
     }
 
@@ -88,9 +90,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
         if (!isUpdatingPlayerList)
         {
-            StartCoroutine(DelayedUpdatePlayerList(2f)); // Atraso de 2 segundos antes de atualizar a lista.
+            StartCoroutine(DelayedUpdatePlayerList(4f)); // Atraso de 2 segundos antes de atualizar a lista.
         }
-
+      
     }
 
 
